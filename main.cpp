@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <iomanip>
-#include <mysql.h>
+
 
 using namespace std; 
 
@@ -14,6 +14,7 @@ void Enterance();
 void Market();
 void Sell();
 void Auction();
+void choice();
 
 
 class Annonymous{

@@ -7,6 +7,7 @@
 
 
 using namespace std; 
+int qstate;
 
 //universal//
 void user();
@@ -59,7 +60,13 @@ void choice(){
 }
 //makret place menu//
 void Market(){
-
+    cout<<"                                          *********************************"<<endl;
+    cout<<"                                          |         Night Market          |"<<endl;
+    cout<<"                                          *********************************"<<endl;    
+     time_t now = time(0);
+     char* dt = ctime(&now);
+     cout<<"                                               "<< dt << endl<<endl;
+    
 }
 //selling station//
 void Sell(){
@@ -71,6 +78,7 @@ void Auction(){
 
 
 }
+
 
 int main(){
     user();
